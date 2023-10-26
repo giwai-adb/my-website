@@ -17,6 +17,7 @@
   --background-color: #fff;
   --overlay-background-color: #eee;
   --highlight-background-color: #ccc;
+  --lowlight-background-color: #d9ffe1;
   --text-color: #000;
 
   /* fonts */
@@ -248,4 +249,8 @@ main .section {
 /* section metadata */
 main .section.highlight {
   background-color: var(--highlight-background-color);
+}
+/* custom meta */
+main .section.lowlight {
+  background-color: var(--lowlight-background-color);
 }
