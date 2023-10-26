@@ -18,6 +18,8 @@
   --overlay-background-color: #eee;
   --highlight-background-color: #ccc;
   --lowlight-background-color: #d9ffe1;
+  --blackmode-background-color: #000;
+  --blackmode-text-color: #fff;
   --text-color: #000;
 
   /* fonts */
@@ -253,4 +255,8 @@ main .section.highlight {
 /* custom meta */
 main .section.lowlight {
   background-color: var(--lowlight-background-color);
+}
+main .section.blackmode {
+  background-color: var(--blackmode-background-color);
+  color: var(--blackmode-text-color);
 }
